@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog url="https://www.site.com">
+	<name>TIENDA</name>
+	<products>
+		<product code="sku_1" url="https://site.com/hidden-forest-maxi-skirt">
+			<categories>
+				<category ref_code="cat16"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">VARUN BAHL</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/4120099465554_015_b2"/>
+			</images>
+		</product>
+		<product code="sku_2" url="https://site.com/north-star-maxi-dress">
+			<categories>
+				<category ref_code="cat8"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">ANTHROPOLOGIE</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/4130089937291_040_b"/>
+			</images>
+		</product>
+		<product code="sku_3" url="https://site.com/velvet-nova-jumpsuit">
+			<categories>
+				<category ref_code="cat32"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">ANTHROPOLOGIE</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/4123346821141_041_b"/>
+			</images>
+		</product>
+		<product code="sku_4" url="https://site.com/delaware-jumpsuit">
+			<categories>
+				<category ref_code="cat32"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">ANTHROPOLOGIE</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/4123506931921_001_b"/>
+			</images>
+		</product>
+		<product code="sku_5" url="https://site.com/pleated-velvet-midi-skirt">
+			<categories>
+				<category ref_code="cat16"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">ANTHROPOLOGIE</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/4120347805588_062_b2"/>
+			</images>
+		</product>
+		<product code="sku_6" url="https://site.com/velvet-off-the-shoulder-top">
+			<categories>
+				<category ref_code="cat11"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">ANTHROPOLOGIE</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/4110257236161_062_b"/>
+			</images>
+		</product>
+		<product code="sku_7" url="https://site.com/onyx-skirt">
+			<categories>
+				<category ref_code="cat16"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">PAPER CROWN</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/4120403047474_001_b2"/>
+			</images>
+		</product>
+		<product code="sku_8" url="https://site.com/starland-pullover">
+			<categories>
+				<category ref_code="cat9"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">ANTHROPOLOGIE</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/4114232791615_004_b"/>
+			</images>
+		</product>
+		<product code="sku_9" url="https://site.com/elspeth-suede-culottes">
+			<categories>
+				<category ref_code="cat14"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">ELEVENSES</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/4123313247921_055_b2"/>
+			</images>
+		</product>
+		<product code="sku_10" url="https://site.com/beaded-zig-zag-bucket-pouch">
+			<categories>
+				<category ref_code="cat21"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">ANTHROPOLOGIE</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/41199944_065_b14"/>
+			</images>
+		</product>
+		<product code="sku_11" url="https://site.com/scallop-canteen">
+			<categories>
+				<category ref_code="cat21"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">INGE CHRISTOPHER</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40822819_040_b"/>
+			</images>
+		</product>
+		<product code="sku_12" url="https://site.com/guilhermina-rose-gold-heels">
+			<categories>
+				<category ref_code="cat36"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">GUILHERMINA</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/41128117_015_b"/>
+			</images>
+		</product>
+		<product code="sku_13" url="https://site.com/howsty-mimosa-lasercut-suede-heels">
+			<categories>
+				<category ref_code="cat37"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">HOWSTY</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40484164_030_b"/>
+			</images>
+		</product>
+		<product code="sku_14" url="https://site.com/seychelles-gaggle-ankle-strap-heels">
+			<categories>
+				<category ref_code="cat36"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">SEYCHELLES</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/41146887_040_b"/>
+			</images>
+		</product>
+		<product code="sku_15" url="https://site.com/pour-la-victoire-amabelle-heels">
+			<categories>
+				<category ref_code="cat37"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">POUR LA VICTOIRE</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40634966_001_b"/>
+			</images>
+		</product>
+		<product code="sku_16" url="https://site.com/jeffrey-campbell-velvet-smoking-slipper-heels">
+			<categories>
+				<category ref_code="cat36"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">JEFFREY CAMPBELL</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40430670_036_b"/>
+			</images>
+		</product>
+		<product code="sku_17" url="https://site.com/schutz-tilan-ankle-tie-heels">
+			<categories>
+				<category ref_code="cat36"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">SCHUTZ</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/41123803_060_b"/>
+			</images>
+		</product>
+		<product code="sku_18" url="https://site.com/howsty-luena-raffia-pumps">
+			<categories>
+				<category ref_code="cat36"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">HOWSTY</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40483687_009_b"/>
+			</images>
+		</product>
+		<product code="sku_19" url="https://site.com/kelsi-dagger-brooklyn-huron-ankle-boots">
+			<categories>
+				<category ref_code="cat35"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">KELSI DAGGER</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/39916390_021_b"/>
+			</images>
+		</product>
+		<product code="sku_20" url="https://site.com/date-hill-high-stardust-sneakers">
+			<categories>
+				<category ref_code="cat34"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">D.A.T.E.</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40150567_007_b"/>
+			</images>
+		</product>
+		<product code="sku_21" url="https://site.com/liendo-pachuca-pumps">
+			<categories>
+				<category ref_code="cat36"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">SEYCHELLES</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40392409_081_b"/>
+			</images>
+		</product>
+		<product code="sku_22" url="https://site.com/candela-knee-high-moto-boots">
+			<categories>
+				<category ref_code="cat35"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">CANDELA</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40355216_004_b"/>
+			</images>
+		</product>
+		<product code="sku_23" url="https://site.com/rachel-comey-fonda-ankle-tie-pumps">
+			<categories>
+				<category ref_code="cat36"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">RACHEL COMEY</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40339939_036_b"/>
+			</images>
+		</product>
+		<product code="sku_24" url="https://site.com/deimille-noha-lucite-heel-booties">
+			<categories>
+				<category ref_code="cat35"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">DEIMILLE</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40170334_001_b"/>
+			</images>
+		</product>
+		<product code="sku_25" url="https://site.com/miista-zoe-sequin-oxfords">
+			<categories>
+				<category ref_code="cat36"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">MIISTA</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40244030_010_b"/>
+			</images>
+		</product>
+		<product code="sku_26" url="https://site.com/chaka-metallic-wing-tip-sneakers">
+			<categories>
+				<category ref_code="cat34"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">CHAKA</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40896458_027_b"/>
+			</images>
+		</product>
+		<product code="sku_27" url="https://site.com/rachel-comey-talli-slides">
+			<categories>
+				<category ref_code="cat36"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">RACHEL COMEY</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/39646898_001_b"/>
+			</images>
+		</product>
+		<product code="sku_28" url="https://site.com/nina-payne-halsey-cutout-heel-booties">
+			<categories>
+				<category ref_code="cat35"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">NINA PAYNE</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/39696703_004_b"/>
+			</images>
+		</product>
+		<product code="sku_29" url="https://site.com/maliparmi-beaded-sneakers">
+			<categories>
+				<category ref_code="cat34"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">MALIPARMI</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40668840_070_b"/>
+			</images>
+		</product>
+		<product code="sku_30" url="https://site.com/nina-payne-marlowe-perforated-loafers">
+			<categories>
+				<category ref_code="cat36"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">NINA PAYNE</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40540718_009_b"/>
+			</images>
+		</product>
+		<product code="sku_31" url="https://site.com/emerson-fry-rounded-leather-slides">
+			<categories>
+				<category ref_code="cat36"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">EMERSON FRY</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/41209149_070_b"/>
+			</images>
+		</product>
+		<product code="sku_32" url="https://site.com/vanessa-tao-pointed-bow-flats">
+			<categories>
+				<category ref_code="cat36"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">VANESSA TAO</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/39968581_061_b"/>
+			</images>
+		</product>
+		<product code="sku_33" url="https://site.com/howsty-caia-wrapped-raffia-flats">
+			<categories>
+				<category ref_code="cat36"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">HOWSTY</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40484420_036_b"/>
+			</images>
+		</product>
+		<product code="sku_34" url="https://site.com/candela-briton-velvet-slides">
+			<categories>
+				<category ref_code="cat36"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">BILLY ELLA</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40354730_051_b"/>
+			</images>
+		</product>
+		<product code="sku_35" url="https://site.com/date-flock-sneakers">
+			<categories>
+				<category ref_code="cat34"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">D.A.T.E.</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40150963_001_b"/>
+			</images>
+		</product>
+		<product code="sku_36" url="https://site.com/luiza-perea-suede-ankle-wrap-mules">
+			<categories>
+				<category ref_code="cat36"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">LUIZA PEREA</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/40489627_090_b"/>
+			</images>
+		</product>
+		<product code="sku_37" url="https://site.com/vanessa-wu-faux-fur-sneakers">
+			<categories>
+				<category ref_code="cat34"/>
+			</categories>
+			<texts>
+				<text ref_code="marca">VANESSA WU</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://images.site.com/41201211_049_b"/>
+			</images>
+		</product>
+	</products>
+	<types>
+		<categories>
+			<category code="cat1" name="CHAQUETA">
+				<parent ref_code="cat6"/>
+			</category>
+			<category code="cat2" name="KIMONO">
+				<parent ref_code="cat6"/>
+			</category>
+			<category code="cat3" name="CAPA">
+				<parent ref_code="cat6"/>
+			</category>
+			<category code="cat4" name="PARKA">
+				<parent ref_code="cat6"/>
+			</category>
+			<category code="cat5" name="PONCHO">
+				<parent ref_code="cat6"/>
+			</category>
+			<category code="cat6" name="ABRIGO"/>
+			<category code="cat7" name="DRESSES">
+				<parent ref_code="cat39"/>
+			</category>
+			<category code="cat8" name="VESTIDOS DE FIESTA">
+				<parent ref_code="cat39"/>
+			</category>
+			<category code="cat9" name="CHALECO">
+				<parent ref_code="cat40"/>
+			</category>
+			<category code="cat10" name="POLERA">
+				<parent ref_code="cat41"/>
+			</category>
+			<category code="cat11" name="BLUSA">
+				<parent ref_code="cat41"/>
+			</category>
+			<category code="cat12" name="JEANS">
+				<parent ref_code="cat42"/>
+			</category>
+			<category code="cat13" name="SHORT">
+				<parent ref_code="cat42"/>
+			</category>
+			<category code="cat14" name="PANTALONES">
+				<parent ref_code="cat42"/>
+			</category>
+			<category code="cat15" name="MINI">
+				<parent ref_code="cat43"/>
+			</category>
+			<category code="cat16" name="POLLERA">
+				<parent ref_code="cat43"/>
+			</category>
+			<category code="cat17" name="ANILLO">
+				<parent ref_code="cat44"/>
+			</category>
+			<category code="cat18" name="COLLAR">
+				<parent ref_code="cat44"/>
+			</category>
+			<category code="cat19" name="AROS">
+				<parent ref_code="cat44"/>
+			</category>
+			<category code="cat20" name="PULSERA">
+				<parent ref_code="cat44"/>
+			</category>
+			<category code="cat21" name="BOLSO">
+				<parent ref_code="cat44"/>
+			</category>
+			<category code="cat22" name="BILLETERA">
+				<parent ref_code="cat44"/>
+			</category>
+			<category code="cat23" name="ANTEOJOS">
+				<parent ref_code="cat44"/>
+			</category>
+			<category code="cat24" name="CINTURON">
+				<parent ref_code="cat44"/>
+			</category>
+			<category code="cat25" name="SOMBRERO">
+				<parent ref_code="cat44"/>
+			</category>
+			<category code="cat26" name="PA">
+				<parent ref_code="cat44"/>
+			</category>
+			<category code="cat27" name="PIJAMA">
+				<parent ref_code="cat45"/>
+			</category>
+			<category code="cat28" name="LINGIRIE &amp; SLEEPWEAR">
+				<parent ref_code="cat45"/>
+			</category>
+			<category code="cat29" name="CREMA">
+				<parent ref_code="cat46"/>
+			</category>
+			<category code="cat30" name="MAQUILLAJE">
+				<parent ref_code="cat46"/>
+			</category>
+			<category code="cat31" name="LABIAL">
+				<parent ref_code="cat46"/>
+			</category>
+			<category code="cat32" name="ENTERITO">
+				<parent ref_code="cat47"/>
+			</category>
+			<category code="cat33" name="JARDINERA">
+				<parent ref_code="cat47"/>
+			</category>
+			<category code="cat34" name="ZAPATILLAS">
+				<parent ref_code="cat48"/>
+			</category>
+			<category code="cat35" name="BOTAS">
+				<parent ref_code="cat48"/>
+			</category>
+			<category code="cat36" name="ZAPATOS MUJER">
+				<parent ref_code="cat48"/>
+			</category>
+			<category code="cat37" name="CHALITAS">
+				<parent ref_code="cat48"/>
+			</category>
+			<category code="cat38" name="TRAJE DE BA"/>
+			<category code="cat39" name="VESTIDO"/>
+			<category code="cat40" name="SWEATER"/>
+			<category code="cat41" name="CAMISA"/>
+			<category code="cat42" name="PANTALON"/>
+			<category code="cat43" name="FALDA"/>
+			<category code="cat44" name="ACCESORIOS"/>
+			<category code="cat45" name="ROPA INTERIOR"/>
+			<category code="cat46" name="PRODUCTOS DE BELLEZA"/>
+			<category code="cat47" name="1 PIEZA"/>
+			<category code="cat48" name="ZAPATOS"/>
+		</categories>
+		<texts>
+			<text code="marca" name="Marca"></text>
+		</texts>
+		<images>
+			<image code="image1" name="Imagen 1"></image>
+			<image code="image2" name="Imagen 2"></image>
+		</images>
+	</types>
+</catalog>

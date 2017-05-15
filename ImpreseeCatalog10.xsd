@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<!-- BASIC DATATYPES -->
+	<xs:simpleType name="datatype_code">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Za-z0-9\._-]*" />
+			<xs:maxLength value="100" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="datatype_name">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="250" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="datatype_url">
+		<xs:restriction base="xs:anyURI">
+			<xs:pattern value="|(https?://.*)" />
+			<xs:maxLength value="250" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="datatype_text">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="10000" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!-- ROOT DEFINITION -->
+	<xs:element name="catalog" type="element_catalog" />
+
+	<xs:complexType name="element_catalog">
+		<xs:all>
+			<xs:element name="name" type="datatype_name" minOccurs="1" maxOccurs="1" />
+			<xs:element name="types" type="element_catalog_types" minOccurs="1" maxOccurs="1" />
+			<xs:element name="products" type="element_catalog_product" minOccurs="1" maxOccurs="1" />
+		</xs:all>
+		<xs:attribute name="url" type="datatype_url" />
+	</xs:complexType>
+
+
+	<!-- PRODUCTS IN CATALOG -->
+	<xs:complexType name="element_catalog_product">
+		<xs:sequence>
+			<xs:element name="product" type="element_product" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="element_product">
+		<xs:all>
+			<xs:element name="categories" type="element_product_category_list" minOccurs="0" maxOccurs="1" />
+			<xs:element name="texts" type="element_product_text_list" minOccurs="0" maxOccurs="1" />
+			<xs:element name="images" type="element_product_image_list" minOccurs="0" maxOccurs="1" />
+		</xs:all>
+		<xs:attribute name="code" type="datatype_code" use="required" />
+		<xs:attribute name="url" type="datatype_url" />
+	</xs:complexType>
+
+	<xs:complexType name="element_product_category_list">
+		<xs:sequence>
+			<xs:element name="category" type="element_product_category" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="element_product_category">
+		<xs:sequence />
+		<xs:attribute name="ref_code" type="datatype_code" use="required" />
+	</xs:complexType>
+
+	<xs:complexType name="element_product_text_list">
+		<xs:sequence>
+			<xs:element name="text" type="element_product_text" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="element_product_text">
+		<xs:simpleContent>
+			<xs:extension base="datatype_text">
+				<xs:attribute name="ref_code" type="datatype_code" use="required" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:complexType name="element_product_image_list">
+		<xs:sequence>
+			<xs:element name="image" type="element_product_image" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="element_product_image">
+		<xs:sequence />
+		<xs:attribute name="ref_code" type="datatype_code" use="required" />
+		<xs:attribute name="url_image" type="datatype_url" use="required" />
+		<xs:attribute name="url_thumbnail" type="datatype_url" />
+	</xs:complexType>
+
+	<!-- TYPES DEFINITION -->
+	<xs:complexType name="element_catalog_types">
+		<xs:all>
+			<xs:element name="categories" type="element_type_category_list" minOccurs="0" maxOccurs="1" />
+			<xs:element name="texts" type="element_type_text_list" minOccurs="0" maxOccurs="1" />
+			<xs:element name="images" type="element_type_image_list" minOccurs="0" maxOccurs="1" />
+		</xs:all>
+	</xs:complexType>
+
+	<xs:complexType name="element_type_category_list">
+		<xs:sequence>
+			<xs:element name="category" type="element_type_category" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="element_type_category">
+		<xs:sequence>
+			<xs:element name="parent" type="element_type_category_reference" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element name="child" type="element_type_category_reference" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+		<xs:attribute name="code" type="datatype_code" />
+		<xs:attribute name="name" type="datatype_name" />
+	</xs:complexType>
+
+	<xs:complexType name="element_type_category_reference">
+		<xs:sequence />
+		<xs:attribute name="ref_code" type="datatype_code" />
+	</xs:complexType>
+
+	<xs:complexType name="element_type_text_list">
+		<xs:sequence>
+			<xs:element name="text" type="element_type_text" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="element_type_text">
+		<xs:sequence />
+		<xs:attribute name="code" type="datatype_code" />
+		<xs:attribute name="name" type="datatype_name" />
+	</xs:complexType>
+
+	<xs:complexType name="element_type_image_list">
+		<xs:sequence>
+			<xs:element name="image" type="element_type_image" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="element_type_image">
+		<xs:sequence />
+		<xs:attribute name="code" type="datatype_code" />
+		<xs:attribute name="name" type="datatype_name" />
+	</xs:complexType>
+
+</xs:schema>
+
