@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog url="https://my-online-store.com/">
+	<name>MY ONLINE STORE</name>
+	<products>
+		<product code="sku_1" url="https://my-online-store.com/products/sku_1">
+			<categories>
+				<category ref_code="cat_a_3_1"/>
+			</categories>
+			<texts>
+				<text ref_code="name">MY PRODUCT 1</text>
+				<text ref_code="description">DETAILED DESCRIPTION PRODUCT 1</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://my-online-store.com/images/sku_1/image1.jpg"/>
+				<image ref_code="image2" url_image="https://my-online-store.com/images/sku_1/image2.jpg"/>
+				<image ref_code="image3" url_image="https://my-online-store.com/images/sku_1/image3.jpg"/>
+			</images>
+		</product>
+		<product code="sku_2" url="https://my-online-store.com/products/sku_2">
+			<categories>
+				<category ref_code="category_b"/>
+			</categories>
+			<texts>
+				<text ref_code="name">MY PRODUCT 2</text>
+				<text ref_code="description">DETAILED DESCRIPTION PRODUCT 2</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://my-online-store.com/images/sku_1/image1.jpg"/>
+			</images>
+		</product>
+		<product code="sku_3" url="https://my-online-store.com/products/sku_3">
+			<categories>
+				<category ref_code="subcategory_b"/>
+			</categories>
+			<texts>
+				<text ref_code="name">MY PRODUCT 3</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://my-online-store.com/images/sku_1/image1.jpg"/>
+			</images>
+		</product>
+		<product code="sku_4" url="https://my-online-store.com/products/sku_4">
+			<categories>
+				<category ref_code="subcategory_b"/>
+			</categories>
+			<texts>
+				<text ref_code="name">MY PRODUCT 4</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://my-online-store.com/images/sku_4/image1.jpg"/>
+				<image ref_code="image2" url_image="https://my-online-store.com/images/sku_4/image2.jpg"/>
+			</images>
+		</product>
+		<product code="sku_5" url="https://my-online-store.com/products/sku_5">
+			<categories>
+				<category ref_code="cat_a_3_1"/>
+			</categories>
+			<texts>
+				<text ref_code="name">MY PRODUCT 5</text>
+				<text ref_code="description">DETAILED DESCRIPTION PRODUCT 5</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://my-online-store.com/images/sku_5/image1.jpg"/>
+			</images>
+		</product>
+		<product code="sku_6" url="https://my-online-store.com/products/sku_6">
+			<categories>
+				<category ref_code="cat_a_3_2"/>
+			</categories>
+			<texts>
+				<text ref_code="name">MY PRODUCT 6</text>
+				<text ref_code="description">DETAILED DESCRIPTION PRODUCT 6</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://my-online-store.com/images/sku_6/image1.jpg"/>
+				<image ref_code="image3" url_image="https://my-online-store.com/images/sku_6/image3.jpg"/>
+			</images>
+		</product>
+		<product code="sku_7" url="https://my-online-store.com/products/sku_7">
+			<categories>
+				<category ref_code="cat_a_1_1"/>
+			</categories>
+			<texts>
+				<text ref_code="name">MY PRODUCT 7</text>
+			</texts>
+			<images>
+				<image ref_code="image1" url_image="https://my-online-store.com/images/sku_7/image1.jpg"/>
+				<image ref_code="image2" url_image="https://my-online-store.com/images/sku_7/image2.jpg"/>
+				<image ref_code="image3" url_image="https://my-online-store.com/images/sku_7/image3.jpg"/>
+			</images>
+		</product>
+	</products>
+	<types>
+		<categories>
+			<category code="main_a" name="Root Category A"/>
+			<category code="cat_a_1" name="Category A-1">
+				<parent ref_code="main_a"/>
+			</category>
+			<category code="cat_a_1_1" name="Sub Category A-1.1">
+				<parent ref_code="cat_a_1"/>
+			</category>
+			<category code="cat_a_2" name="Category A-2">
+				<parent ref_code="main_a"/>
+			</category>
+			<category code="cat_a_3" name="Category A-3">
+				<parent ref_code="main_a"/>
+			</category>
+			<category code="cat_a_3_1" name="Sub Category A-3.1">
+				<parent ref_code="cat_a_1"/>
+			</category>
+			<category code="cat_a_3_2" name="Sub Category A-3.2">
+				<parent ref_code="cat_a_1"/>
+			</category>
+			<category code="root_b" name="Root Category B"/>
+			<category code="category_b" name="Category B">
+				<parent ref_code="root_b"/>
+			</category>
+			<category code="subcategory_b" name="Sub Category B">
+				<parent ref_code="category_b"/>
+			</category>
+		</categories>
+		<texts>
+			<text code="name" name="Product Name"></text>
+			<text code="description" name="Product Description"></text>
+		</texts>
+		<images>
+			<image code="image1" name="Main Image"></image>
+			<image code="image2" name="Secondary Image"></image>
+			<image code="image3" name="Alternative View"></image>
+		</images>
+	</types>
+</catalog>
