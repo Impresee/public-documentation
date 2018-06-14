@@ -33,11 +33,9 @@
 
 	<xs:complexType name="element_catalog">
 		<xs:all>
-			<xs:element name="name" type="datatype_name" minOccurs="1" maxOccurs="1" />
-			<xs:element name="types" type="element_catalog_types" minOccurs="1" maxOccurs="1" />
+			<xs:element name="types" type="element_catalog_types" minOccurs="0" maxOccurs="1" />
 			<xs:element name="products" type="element_catalog_product" minOccurs="1" maxOccurs="1" />
 		</xs:all>
-		<xs:attribute name="url" type="datatype_url" />
 	</xs:complexType>
 
 
